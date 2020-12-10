@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/style-xml.css"?>
+<AUTHOR>
+	<INFORMATION>
+		<LASTNAME>Фамилия: Николаюк</LASTNAME>
+		<NAME>Имя: Диана</NAME>
+		<FACULTY>Факультет: ФИТ</FACULTY>
+		<SPEC>Специальность: ДЭиВИ</SPEC>
+		<COURSE>Курс: 2</COURSE>
+		<GROUP>Группа: 11</GROUP>
+	</INFORMATION>
+</AUTHOR>

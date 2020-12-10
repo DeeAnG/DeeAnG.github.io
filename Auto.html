@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Автопарк BatSharing</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/Styles3.css">
+	<link rel="stylesheet" type="text/css" href="css/Contacts.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&family=Montserrat:wght@100;300;400;500&display=swap" rel="stylesheet">
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<header class="header">
+	<div class="container">
+		<div class="top">
+			<img src="img/LogoOrange.svg" alt="BatSharing" class="logo">
+			<ul class="menu">
+				<li>
+					<a href="index.html" class="btn">
+						Главная
+					</a>
+				</li>
+				<li>
+					<a href="Auto.html" class="btn">
+						Автопарк
+					</a>
+				</li>
+				<li>
+					<a href="Gallery.html" class="btn">
+						Галерея
+					</a>
+				</li>
+				<li>
+					<a href="#" data-modal="modal_1" class="btn"> 
+						Контакты
+					</a>
+				</li>
+			</ul>
+			<a href="tel:+375445122363" class="tel">+ 375 (44) 512-23-63</a>
+			<button class="menu-open">
+				<img src="img/BurgerOrange.svg" alt="Меню">
+			</button>
+		</div>
+	</div>
+</header>
+<!-- Всплывающее окно "Контакты" -->
+<div class="overlay" data-close=""></div>
+<div id="modal_1" class="dlg-modal">
+	<span class="closer" data-close="">
+		<img src="img/Cross.png">
+	</span>
+	<h3>Контакты</h3>
+	<div class="Cont">
+		<div class="contacts">
+			<div class="part"><h4>Телефон</h4><h4>+ 375 (44) 512-23-63
+</h4></div>
+			<div class="part"><h4>Instagram</h4><a href="#"><h4>@Bat_Sharing</h4></a></div>
+			<div class="part"><h4>Vkontakte</h4><a href="#"><h4>Ссылка :)</h4></a></div>
+			<div class="part"><h4>Facebook</h4><a href="#"><h4>Ссылка :)</h4></a></div>
+			<div class="part"><h4>Адрес</h4><h4>г. Минск,  пр. Независимости, 15А</h4></div>
+		</div>
+		<div style="position:relative;overflow:hidden;" class="map">
+			<a href="https://yandex.by/maps/157/minsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Минск</a>
+			<a href="https://yandex.by/maps/157/minsk/house/Zk4YcAdkTEACQFtpfXVzc35nYw==/?ll=27.603086%2C53.922185&source=wizgeo&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">Проспект Независимости, 76 на карте Минска, ближайшее метро Академия наук — Яндекс.Карты</a>
+			<iframe src="https://yandex.by/map-widget/v1/-/CCUEB-dppC" width="560" height="300" frameborder="1" allowfullscreen="true" style="position:relative;">
+			</iframe>
+		</div>
+	</div>
+</div>
+<script>var typeAnimate = 'fade';</script>
+<script src="js/FadenWindow.js"></script>
+<section>
+	<div class="container" id="flex-cont">
+		<a href="#openModal1">
+			<div class="card">
+				<img src="img/Car1.jpg">
+				<h3>Chevrolet Bel Air 1957г.</h3>
+				<div class="box">
+					<div class="Minsk">
+						<h4>0,60 руб / мин </h4>
+						<h5>в Минской области</h5>
+					</div>
+					<div class="Country">
+						<h4>0,80 руб / мин </h4>
+						<h5>по регионам</h5>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#openModal2">
+			<div class="card">
+				<img src="img/Car2.jpg">
+				<h3>Mersedes-Benz w198(300SL) 1960г.</h3>
+				<div class="box">
+					<div class="Minsk">
+						<h4>0,60 руб / мин </h4>
+						<h5>в Минской области</h5>
+					</div>
+					<div class="Country">
+						<h4>0,80 руб / мин </h4>
+						<h5>по регионам</h5>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#openModal3">
+			<div class="card">
+				<img src="img/Car3.jpg">
+				<h3>Ford Mustang 1964-1966 г.</h3>
+				<div class="box">
+					<div class="Minsk">
+						<h4>0,60 руб / мин </h4>
+						<h5>в Минской области</h5>
+					</div>
+					<div class="Country">
+						<h4>0,80 руб / мин </h4>
+						<h5>по регионам</h5>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#openModal4">
+			<div class="card">
+				<img src="img/Car4.jpg">
+				<h3>Chevrolet Impala 1961-1964 г.</h3>
+				<div class="box">
+					<div class="Minsk">
+						<h4>0,60 руб / мин </h4>
+						<h5>в Минской области</h5>
+					</div>
+					<div class="Country">
+						<h4>0,80 руб / мин </h4>
+						<h5>по регионам</h5>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#openModal5">
+			<div class="card">
+				<img src="img/Car5.jpg">
+				<h3>Mersedes-Benz w115 1968-1976 г.</h3>
+				<div class="box">
+					<div class="Minsk">
+						<h4>0,60 руб / мин </h4>
+						<h5>в Минской области</h5>
+					</div>
+					<div class="Country">
+						<h4>0,80 руб / мин </h4>
+						<h5>по регионам</h5>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#openModal6">
+			<div class="card">
+				<img src="img/Car6.jpg">
+				<h3 class="OneLine">Газ 13 “Чайка”</h3>
+				<div class="box">
+					<div class="Minsk">
+						<h4>0,60 руб / мин </h4>
+						<h5>в Минской области</h5>
+					</div>
+					<div class="Country">
+						<h4>0,80 руб / мин </h4>
+						<h5>по регионам</h5>
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#openModal7">
+			<div class="card">
+				<img src="img/Car7.jpg">
+				<h3 class="OneLine">Volkswagen Käfer</h3>
+				<div class="box">
+					<div class="Minsk">
+						<h4>0,60 руб / мин </h4>
+						<h5>в Минской области</h5>
+					</div>
+					<div class="Country">
+						<h4>0,80 руб / мин </h4>
+						<h5>по регионам</h5>
+					</div>
+				</div>
+			</div>
+		</a>
+		<div class="card" id="invisible">8</div>
+		<div class="card" id="invisible">9</div>
+	</div>
+	<div id="openModal1" class="Window">
+		<div>
+			<a href="#close" class="close"><img src="img/Cross.png"></a>
+			<div id="Content">
+			<div class="photo1">
+				
+			</div>
+			<div class="desc">
+				<h3>Chevrolet Bel Air 1957г.</h3>
+				<p class="text">Chevrolet Bel Air —  американский полноразмерный автомобиль, выпускавшийся подразделением Chevrolet корпорации General Motors с 1949 по 1975 год (в Канаде автомобили под этим обозначением продавались до 1981 модельного года включительно). Получил название в честь престижного района Лос-Анджелеса, Калифорния.</p>
+				<p class="text">Chevrolet Bel Air упоминается в десятках песен, а одна из песен кантри-группы Old 97's так и называется — Bel Air. Кроме того, настенные скульптуры, стилизованные под переднюю и заднюю части Bel Air, являются неотъемлемой частью интерьеров многих ресторанов, особенно в США. Chevrolet Bel Air 1955 года управлял Хариссон Форд в роли Боба Фалсы в фильме «Американские граффити».</p>
+				<div class="chest">
+				<p class="price"><span class="num">60</span> коп / мин</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="openModal2" class="Window">
+		<div>
+			<a href="#close" class="close"><img src="img/Cross.png"></a>
+			<div id="Content">
+			<div class="photo2">
+				
+			</div>
+			<div class="desc">
+				<h3>Mercedes-Benz w198(300SL) 1960г.</h3>
+				<p class="text">Mercedes-Benz 300 SL (W198) – спортивный автомобиль произведенный компанией Mercedes-Benz в версии купе (1954-1957) и версии родстер (1957-1963). Являлся самым быстрым автомобилем своего времени.</p>
+				<p class="text">Огромную славу данный шедевр автомобильного мира завоевал на гонках: Вернер Энгель выиграл чемпионат Европы по ралли 1955 года за рулем 300SL, свыше трехсот 300 SL было зарегистрировано на стоянке ежегодной гонки на выносливость «12 часов Себринга» в 1956 году, также автомобиль выиграл в Rali Vinho da Madeira и еще множество других.</p>
+				<div class="chest">
+				<p class="price"><span class="num">60</span> коп / мин</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="openModal3" class="Window">
+		<div>
+			<a href="#close" class="close"><img src="img/Cross.png"></a>
+			<div id="Content">
+			<div class="photo3">
+				
+			</div>
+			<div class="desc">
+				<h3>Ford Mustang 1964-1966 г.</h3>
+				<p class="text">Первый в своем роде культовый автомобиль компании Ford Motor Company положивший начало модели Mustang которая производится до сих пор. Первый «Мустанг» покинул конвейер утром 9 марта 1964 года, к концу этого же года было продано уже 263 434 автомобиля.</p>
+				<p class="text">Автомобиль начальной версии с двигателем объемом 2,8 литра (102 л.с.) разгонялся лишь до 150 км/ч. Зато в список опций входили моторы V8 мощностью до 380 л.с., автоматическая коробка передач и масса прочего оборудования. Первый Ford Mustang предлагался с тремя типами кузова: купе, фастбек и кабриолет. За годы производства он удлинился с 4613 до 4923 мм.</p>
+				<div class="chest">
+				<p class="price"><span class="num">60</span> коп / мин</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="openModal4" class="Window">
+		<div>
+			<a href="#close" class="close"><img src="img/Cross.png"></a>
+			<div id="Content">
+			<div class="photo4">
+				
+			</div>
+			<div class="desc">
+				<h3>Chevrolet Impala 1961-1964 г.</h3>
+				<p class="text">Chevrolet Impala (III поколения) – американский полноразмерный автомобиль, выпускавшийся подразделением корпорации General Motors – Chevrolet в 1961-1964 года. По сравнению с предшественниками дизайн автомобиля стал более простым и лаконичным, без больших плавников в задней части.</p>
+				<p class="text">Характерной деталью была широкая выштамповка на боковине, расширяющаяся от переда к корме и переходящая сзади в ребро жесткости на крышке багажника. Панорамное лобовое стекло значительно уменьшило свою площадь, передняя стойка крыши приобрела необычную изогнутую форму. У седанов и хардтопов появилась крыша общей формы, с прямоугольной задней частью.</p>
+				<div class="chest">
+				<p class="price"><span class="num">60</span> коп / мин</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="openModal5" class="Window">
+		<div>
+			<a href="#close" class="close"><img src="img/Cross.png"></a>
+			<div id="Content">
+			<div class="photo5">
+				
+			</div>
+			<div class="desc">
+				<h3>Mersedes-Benz w115 1968-1976 г.</h3>
+				<p class="text">Мerсedes-benz w115 1968-1976 — первая, по-настоящему массовая серия легковых автомобилей знаменитой марки Mercedes-Benz. Компания в очередной раз определила передовые тенденции — машина стремительно вышла в автомобильные лидеры того времени. Семейство W114/W115 отличалось классическим элегантным обликом, а также высоким для своего времени уровнем комфорта и безопасности.</p>
+				<p class="text">Модель по своей сути стала эпохальной. Так, именно на нем была применена новая технология работы дизельного двигателя. Это первый в мире 5-цилиндровый дизель с прямым впрыском топлива. W115 были одними из самых безопасных автомобилей на момент их производства, также они отличались необычайной надежностью, поэтому пользовались популярностью у таксистов.</p>
+				<div class="chest">
+				<p class="price"><span class="num">60</span> коп / мин</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="openModal6" class="Window">
+		<div>
+			<a href="#close" class="close"><img src="img/Cross.png"></a>
+			<div id="Content">
+			<div class="photo6">
+				
+			</div>
+			<div class="desc">
+				<h3>Газ 13 “Чайка”</h3>
+				<p class="text">АЗ-13 "Ча́йка" — один из самых известных советских автомобилей, выпускавшийся малой серией на Горьковском автомобильном заводе c 1959 по 1981 год. "Чайка" была революционным для советского автопрома автомобилем. На нем впервые в истории ГАЗ были использованы четырехкамерный карбюратор, гидроусилитель руля, вакуумный усилитель тормозов, электростеклоподьемники.</p>
+				<p class="text">Для нового автомобиля был спроектирован полностью новый двигатель, V8, имевший достаточно прогрессивную по меркам тех лет конструкцию вместо стоявшей рядной «шестёрки». «Чайки» использовались в качестве персонального транспорта высшей номенклатуры (преимущественно — министров, первых секретарей обкомов).</p>
+				<div class="chest">
+				<p class="price"><span class="num">60</span> коп / мин</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="openModal7" class="Window">
+		<div>
+			<a href="#close" class="close"><img src="img/Cross.png"></a>
+			<div id="Content">
+			<div class="photo7">
+				
+			</div>
+			<div class="desc">
+				<h3>Volkswagen Käfer</h3>
+				<p class="text">Volkswagen Käfer или Фольксваген "Жук", наверное один из самых узнаваемых автомобилей в мире и ведь это действительно так! История его создания, начавшаяся в далеком 1934 году и производство с 1946 по 2003 год, а также то, что он, в определенной мере, обязан своим появлением Гитлеру, вызывают самый настоящий восторг.</p>
+				<p class="text">Завод Volkswagen считался символом послевоенного Немецкого экономического чуда и всё это благодаря успеху «Жука», который очень хорошо продавался, и не только в Германии. На данный момент "Жук" является самым массовым автомобилем в истории, производившимся без пересмотра базовой конструкции. Всего было изготовлено 21 529 464 автомобиля.</p>
+				<div class="chest">
+				<p class="price"><span class="num">60</span> коп / мин</p>
+				</div>
+			</div>
+			</div>
+		</div>
+</section>
+<footer>
+	<div class="container" id="flexC">
+		<div id="logo">
+			<img src="img/Logoblack.svg" alt="BatSharing" class="logo">
+		</div>
+		<div class="media">
+			<p>Мы в соцсетях:</p>
+			<div class="Icons">
+				<a href="#"><img src="img/IconVk.png"></a>
+				<a href="#"><img src="img/IconInst.png"></a>
+				<a href="#"><img src="img/IconF.png"></a>
+			</div>
+		</div>
+		<iframe src="XML.xml" frameborder="none" class="table"></iframe>
+	</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="js/menu.js" type="text/javascript"></script>
+</body>
+</html>

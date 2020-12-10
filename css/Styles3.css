@@ -1,0 +1,675 @@
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+header {
+	height: 80px;
+	background-color: white;
+	box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.08);
+	margin-bottom: 30px;
+}
+a {
+	text-decoration: none;
+}
+body {
+	background: url('../img/Back.png') repeat-y center top / cover;
+}
+.container {
+	width: 1127px;
+	margin: 0 auto; /*позиционирование по центру*/
+}
+.menu {
+	display: flex;
+}
+.menu li a {
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 0.015em;
+	color: black;
+}
+.menu li {
+	margin-right: 45px; 
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+.top {
+	display: flex;
+	align-items: stretch;
+	padding-top: 34px;
+	padding-bottom: 31px;
+}
+.logo {
+	width: 98px;
+	height: 23.02px;
+	margin-right: 93px;
+}
+.tel {
+	letter-spacing: 0.015em;
+	font-weight: 500;
+	font-style: normal;
+	font-family: Montserrat;
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: auto;
+	color: #C7905E;
+}
+.menu-open {
+	display: none;
+	margin-left: 10px;
+	background: none;
+	border: none;
+}
+.header .show-menu {
+	display: block;
+	position: absolute;
+	background: rgba(255, 255, 255, 0.85);
+	left: 0;
+	top: 0;
+	width: 40%;
+	padding: 40px 20px 20px 40px;
+}
+.menu li {
+	margin-bottom: 20px;
+}
+button:focus {
+	outline: none;
+}
+#flex-cont {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+	justify-content: space-between;
+	align-content: space-around;
+}
+.card {
+	width: 350px;
+	height: 400px;
+	background-color: white;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	box-shadow: 0px 0px 98px -24px rgba(0, 0, 0, 0.2);
+}
+#invisible {
+	display: none;
+}
+h3
+{
+	font-family: IBM Plex Serif;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 100%;
+	letter-spacing: 0.04em;
+	color: #2E3132;
+	text-align: center;
+	margin-top: 18px;
+	width: 261px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.box {
+	width: 312px;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+}
+.Minsk {
+	display: flex;
+	height: 50%;
+	margin-top: auto;
+	margin-bottom: auto;
+	align-items: flex-end;
+}
+.Country {
+	display: flex;
+	height: 50%;
+	margin-top: auto;
+	margin-bottom: auto;
+	align-items: center;
+}
+h4 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 109.9%;
+	letter-spacing: -0.035em;
+	color: #0E0E0E;
+}
+h5 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 109.9%;
+	letter-spacing: -0.035em;
+	color: #0E0E0E;
+	margin-left: auto;
+	text-align: right;
+}
+.OneLine {
+	height: 44px;
+}
+.Window {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	background: rgba(0,0,0,0.87);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+.Window:target {
+    display: block;
+    pointer-events: auto;
+}
+.Window > div {
+    width: 1126px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    background: #f0ede8;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.85); 
+	box-shadow: 0 0 20px rgba(0,0,0,0.85); 
+}
+.close img {
+	width: 30px; 
+	height: 30px; 
+	display: block; 
+	position: absolute; 
+	right: 5px; 
+	top: 5px; 
+	cursor: pointer;
+}
+.close img:hover {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	transition: all 0.2s
+}
+#Content {
+	display: flex;
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+	flex-direction: row;
+}
+.photo1 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	display: block;
+	width: 50%;
+	height: 454px;
+	background: url('../img/chevrolet Bel Air 1957(1).jpg') no-repeat center top / cover;
+}
+.photo2 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	display: block;
+	width: 50%;
+	height: 454px;
+	background: url('../img/mersedes-benz w198(300SL)1960(1).jpg') no-repeat center top / cover;
+}
+.photo3 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	display: block;
+	width: 50%;
+	height: 454px;
+	background: url('../img/ford mustang 1964-1966 (1).jpg') no-repeat center top / cover;
+}
+.photo4 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	display: block;
+	width: 50%;
+	height: 454px;
+	background: url('../img/chevrolet impaia 1961-1964(2).jpg') no-repeat center top / cover;
+}
+.photo5 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	display: block;
+	width: 50%;
+	height: 454px;
+	background: url('../img/mersedes-benz w115 1969-1976(1) .jpg') no-repeat center top / cover;
+}
+.photo6 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	display: block;
+	width: 50%;
+	height: 454px;
+	background: url('../img/газ 13 Чайка(2).jpg') no-repeat center top / cover;
+}
+.photo7 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	display: block;
+	width: 50%;
+	height: 454px;
+	background: url('../img/фольксваген Жук 2.jpg') no-repeat center top / cover;
+}
+.desc {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 18px;
+
+}
+.text {
+	width: 395px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 135.4%;
+	text-align: justify;
+	letter-spacing: 0.015em;
+	color: #000000;
+	margin-right: auto;
+	margin-left: auto;
+}
+.price {
+	font-family: IBM Plex Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	letter-spacing: 0.04em;
+	color: #000000;
+	margin: 0;
+}
+.num {
+	font-family: IBM Plex Serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 100%;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+.chest {
+	border: 1px solid black;
+	padding: 0 15px;
+	width: 211px;
+	height: 67px;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+.button1 img {
+	display: flex;
+	margin-left: auto;
+	margin-top: 35%;
+	width: 30px;
+	height: 80px;
+}
+footer {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 90px 22px rgba(0, 0, 0, 0.05);
+}
+#flexC {
+	display: flex;
+}
+#logo {
+	display: flex;
+	width: 33%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.media {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+	margin-top: 18px;
+}
+.media p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 0.015em;
+	color: #666666;
+}
+.Icons {
+	width: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.table {
+	display: flex;
+	width: 33%;
+	padding-top: 30px;
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 1140px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+	.card {
+		width: 310px;
+	}
+	.card img {
+		width: 310px;
+	}
+	.box {
+		width: 264px;
+	}
+	.Window > div {
+    	width: 980px;
+	}
+	.text {
+		width: 350px;
+		font-size: 12px;
+	}
+	.desc {
+    	width: 43%;
+	}
+	.chest {
+		width: 177px;
+		height: 64px;
+		margin-left: 203px;
+	}
+	.price {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+	body .dlg-modal {
+		left: 47%;
+		width: 560px;
+	}
+	iframe {
+		width: 550px;
+		height: 270px;
+	}
+	.Window > div {
+    	width: 700px;
+	}
+	.desc h3 {
+		font-size: 18px;
+		width: 200px;
+		margin-left: 70px;
+	}
+	.text {
+		width: 270px;
+		font-size: 11px;
+		margin-left: 40px;
+	}
+	.num {
+		font-size: 48px;
+	}
+	.chest {
+		width: 147px;
+		height: 57px;
+		margin-left: 130px;
+	}
+	.photo1 {
+		width: 35%;
+	}
+	.photo2 {
+		width: 35%;
+	}
+	.photo3 {
+		width: 35%;
+	}
+	.photo4 {
+		width: 35%;
+	}
+	.photo5 {
+		width: 35%;
+	}
+	.photo6 {
+		width: 35%;
+	}
+	.photo7 {
+		width: 35%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.container {
+		width: 560px;
+	}
+	.menu {
+		display: none;
+	}
+	.menu-open {
+		display: block;
+	}
+	.card {
+		width: 500px;
+		height: 600px;
+	}
+	.card img {
+		width: 500px;
+	}
+	body .dlg-modal {
+		left: 37%;
+    	width: 500px;
+	}
+	.part h4{
+		font-size: 14px;
+    }
+    .contacts {
+    	width: 500px;
+    }
+    iframe {
+    	width: 500px;
+    	height: 250px;
+    }
+    .map {
+    	width: 500px;
+    }
+    #Content {
+    	flex-direction: column;
+    	width: 551px;
+    }
+    .Window > div {
+    	width: 550px;
+    	height: 620px;
+    	margin: 2% auto;
+	}
+	.desc h3 {
+		font-size: 14px;
+		width: 200px;
+		margin-left: 170px;
+		margin-top: 5px;
+	}
+	.text {
+		width: 200%;
+		font-size: 9px;
+		margin-left: 40px;
+		line-height: 100%;
+		margin-bottom: 0;
+	}
+	.num {
+		font-size: 36px;
+	}
+	.chest {
+		width: 100px;
+		height: 37px;
+		margin-left: 405px;
+		padding: 0 5px;
+	}
+	.price {
+		font-size: 10px;
+	}
+	.photo1 {
+		width: 99%;
+		margin: 0;
+	}
+	.photo2 {
+		width: 99%;
+		margin: 0;
+	}
+	.photo3 {
+		width: 99%;
+		margin: 0;
+	}
+	.photo4 {
+		width: 99%;
+		margin: 0;
+	}
+	.photo5 {
+		width: 99%;
+		margin: 0;
+	}
+	.photo6 {
+		width: 99%;
+		margin: 0;
+	}
+	.photo7 {
+		width: 99%;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 575px) {
+	.container {
+		width: 280px;
+	}
+	.card {
+		width: 280px;
+		height: 380px;
+	}
+	.card img {
+		width: 280px;
+	}
+	.menu {
+		display: none;
+	}
+	   	.media p {
+   		font-size: 8px;
+   		margin: 0;
+   	}
+   	.Icons {
+   		width: 30px;
+   	}
+   	.Icons a img{
+   		width: 8px;
+   		height: 8px;
+   	}
+   	#flexC #logo img {
+   		width: 70%;
+   	}
+   	footer {
+   		height: 70px;
+   	}
+   	.table {
+   		display: none;
+   	}
+   	#logo, .media, .table {
+    	height: 50px;
+    	padding-bottom: 0;
+    }
+    .tel {
+    	font-size: 7px;
+    }
+    #logo {
+    	padding-top: 15px;
+    }
+    .top {
+    	align-items: center;
+    }
+    .logo {
+    	width: 20%;
+    }
+    body .dlg-modal {
+		left: 53%;
+    	width: 280px;
+    	padding: 0;
+    	height: 400px !important;
+	}
+	.part h4{
+		font-size: 12px;
+    }
+    .contacts {
+    	width: 200px;
+    }
+    iframe {
+    	width: 200px;
+    	height: 100px;
+    }
+    .map {
+    	width: 200px;
+    }
+    .dlg-modal .Cont {
+    	width: 200px;
+    	margin-left: 40px;
+    }
+    .Window > div {
+    	width: 260px;
+    	height: 480px;
+    	margin: 2% auto;
+	}
+	#Content {
+		width: 220px;
+		flex-direction: column;
+	}
+	.desc h3 {
+		font-size: 12px;
+		width: 150px;
+		margin-left: 40px;
+		margin-top: 5px;
+	}
+	.text {
+		margin-left: 0;
+		width: 220px;
+	}
+	.chest {
+		margin-left: 108px;
+	}
+	.photo1 {
+		width: 220px;
+		height: 220px;
+	}
+	.photo2 {
+		width: 220px;
+		height: 220px;
+	}
+	.photo3 {
+		width: 220px;
+		height: 220px;
+	}
+	.photo4 {
+		width: 220px;
+		height: 220px;
+	}
+	.photo5 {
+		width: 220px;
+		height: 220px;
+	}
+	.photo6 {
+		width: 220px;
+		height: 220px;
+	}
+	.photo7 {
+		width: 220px;
+		height: 220px;
+	}
+}

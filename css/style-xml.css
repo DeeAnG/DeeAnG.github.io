@@ -1,0 +1,22 @@
+AUTHOR {
+	display: flex;
+	width: 150px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 0.015em;
+	color: #666666;
+}
+INFORMATION {
+	display: flex;
+	flex-direction: column;
+}
+LASTNAME, NAME, FACULTY, SPEC, COURSE, GROUP {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 0.015em;
+	color: #666666;
+}

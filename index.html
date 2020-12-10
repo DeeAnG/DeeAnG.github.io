@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BatSharing</title>
+	<link rel="stylesheet" type="text/css" href="css/Styles.css">
+	<link rel="stylesheet" type="text/css" href="css/Contacts.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&family=Montserrat:wght@100;300;400;500&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<header class="header">
+	<div class="container">
+		<div class="top">
+			<img src="img/Logo.svg" alt="BatSharing" class="logo">
+			<ul class="menu">
+				<li>
+					<a href="index.html" class="btn">
+						Главная
+					</a>
+				</li>
+				<li>
+					<a href="Auto.html" class="btn">
+						Автопарк
+					</a>
+				</li>
+				<li>
+					<a href="Gallery.html" class="btn">
+						Галерея
+					</a>
+				</li>
+				<li>
+					<a href="#" data-modal="modal_1" class="btn"> 
+						Контакты
+					</a>
+				</li>
+			</ul>
+			<a href="tel:+375445122363" class="tel">+ 375 (44) 512-23-63</a>
+			<button class="menu-open">
+				<img src="img/Burger.svg" alt="Меню">
+			</button>
+		</div>
+		<div class="title">
+			<h1>Почувствуй энергию ретро!</h1>
+			<p>Лучшие ретро автомобили Беларуси только в нашем каршеринге. Несмотря на почтенный возраст моделей, они находятся в идеальном техническом и эстетическом состоянии.</p>
+		</div>
+		<div class="choice">
+			<a href="Auto.html" id="button">Выбрать авто</a>
+			<p>от 0,35 руб / мин</p>
+		</div>
+	</div>
+</header>
+<!-- Всплывающее окно "Контакты" -->
+<div class="overlay" data-close=""></div>
+<div id="modal_1" class="dlg-modal">
+	<span class="closer" data-close="">
+		<img src="img/Cross.png">
+	</span>
+	<h3>Контакты</h3>
+	<div class="Cont">
+		<div class="contacts">
+			<div class="part"><h4>Телефон</h4><h4>+ 375 (44) 512-23-63
+</h4></div>
+			<div class="part"><h4>Instagram</h4><a href="#"><h4>@Bat_Sharing</h4></a></div>
+			<div class="part"><h4>Vkontakte</h4><a href="#"><h4>Ссылка :)</h4></a></div>
+			<div class="part"><h4>Facebook</h4><a href="#"><h4>Ссылка :)</h4></a></div>
+			<div class="part"><h4>Адрес</h4><h4>г. Минск,  пр. Независимости, 15А</h4></div>
+		</div>
+		<div style="position:relative;overflow:hidden;" class="map">
+			<a href="https://yandex.by/maps/157/minsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Минск</a>
+			<a href="https://yandex.by/maps/157/minsk/house/Zk4YcAdkTEACQFtpfXVzc35nYw==/?ll=27.603086%2C53.922185&source=wizgeo&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">Проспект Независимости, 76 на карте Минска, ближайшее метро Академия наук — Яндекс.Карты</a>
+			<iframe src="https://yandex.by/map-widget/v1/-/CCUEB-dppC" width="560" height="300" frameborder="1" allowfullscreen="true" style="position:relative;">
+			</iframe>
+		</div>
+	</div>
+</div>
+<script>var typeAnimate = 'fade';</script>
+<script src="js/FadenWindow.js"></script>
+<section class="about">
+	<div class="container">
+		<h2>О нас</h2>
+		<div class="visual">
+			<img src="img/Line.svg" class="firstimg">
+			<img src="img/Circle.svg" class="secondimg">
+		</div>
+		<div class="aboutUs">
+			<div class="threeh">
+				<h3>Профессиональный сервис.
+</h3>
+				<h3>Оправданные ожидания.</h3>
+			</div>
+			<div class="text">
+				<p>BatSharing — белорусская компания, запустившая сервис каршеринга в октябре 2016 года. Сервис позволяет арендовать автомобиль на любое время: на короткую поездку в магазин, на продолжительную за город, на свадебную церемнию или для фотосессии. Пользователю не нужно оплачивать бензин, автомойку, страховку и городской паркинг. Концепция «всё включено» покрывает эти расходы и пользователь платит только за время использования автомобиля.</p>
+			</div>
+			<div class="text">
+				<p>Задача компании — сделать владение ретро автомобилем не заоблочной мечтой, а приятной реальностью. BatSharing работает в Минске, Бресте и Гродно. Большая часть автопарка состоит из зарубежных автомобилей. Всего в сервисе доступно 15 автомобилей. Постоянное увеличение автопарка, открытие новых парковочных зон и совершенствование сервиса делают BatSharing одним из лидеров на рынке ретро каршеринга.</p>
+			</div>
+		</div>
+		<div class="pictures">
+			<img src="img/img1.jpg">
+			<img src="img/img2.jpg">
+			<img src="img/img3.jpg">
+		</div>
+		<img src="img/blurline.png" class="line">
+		<div class="blocks">
+			<div class="threeboxes">
+				<div class="block"><div class="pic"><img src="img/Timer.svg"></div><p>Быстрый отклик</p></div>
+				<div class="block"><h3 class="pluses">Наши преимущества</h3><p style="padding-top: 30px">Почему стоит выбрать именно нас?</p></div>
+				<div class="block"><div class="pic"><img src="img/Star.svg"></div><p>Лучшие машины прошлого века</p></div>
+			</div>
+			<div class="threeboxes" id="threeboxes2">
+				<div class="block"><div class="pic"><img src="img/Love.svg"></div><p>Незабываемые эмоции</p></div>
+				<div class="block"><div class="pic"><img src="img/Dollar.svg" id="dollar"></div><p>Приемлемые цены</p></div>
+				<div class="block"><div class="pic"><img src="img/Heart.svg"></div><p>Отличный сервис</p></div>
+			</div>
+		</div>
+		<img src="img/blurline.png" class="line">
+		<h2>Галерея</h2>
+		<div class="visual">
+			<img src="img/Line.svg" class="firstimg">
+			<img src="img/Circle.svg" class="secondimg">
+		</div>
+		<div class="gallery">
+			<figure class="gallery__item gallery__item--1">
+				<img src="img/image-1.jpg" class="gallery__img" alt="Image 1">
+  			</figure>
+  			<figure class="gallery__item gallery__item--2">
+  				<img src="img/image-2.jpg" class="gallery__img" alt="Image 2">
+  			</figure>
+  			<figure class="gallery__item gallery__item--3">
+  				<img src="img/image-3.jpg" class="gallery__img" alt="Image 3">
+  			</figure>
+  			<figure class="gallery__item gallery__item--4">
+  				<img src="img/image-4.jpg" class="gallery__img" alt="Image 4">
+  			</figure>
+  			<figure class="gallery__item gallery__item--5">
+  				<img src="img/image-5.jpg" class="gallery__img" alt="Image 5">
+  			</figure>
+  			<figure class="gallery__item gallery__item--6">
+  				<img src="img/image-6.jpg" class="gallery__img" alt="Image 6">
+  			</figure>
+		</div>
+		<div class="link">
+			<a href="Gallery.html">Перейти в галерею</a><img src="img/Arrow.svg"></a>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container" id="flexC">
+		<div id="logo">
+			<img src="img/Logoblack.svg" alt="BatSharing" class="logo">
+		</div>
+		<div class="media">
+			<p>Мы в соцсетях:</p>
+			<div class="Icons">
+				<a href="#"><img src="img/IconVk.png"></a>
+				<a href="#"><img src="img/IconInst.png"></a>
+				<a href="#"><img src="img/IconF.png"></a>
+			</div>
+		</div>
+		<iframe src="XML.xml" frameborder="none" class="table"></iframe>
+	</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="js/menu.js" type="text/javascript"></script>
+</body>
+</html>
